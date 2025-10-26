@@ -453,25 +453,6 @@
             75% { transform: translateX(5px); }
         }
 
-        .arrow-container {
-            display: flex;
-            align-items: center;
-            margin-left: 0.8rem;
-        }
-
-        .arrow {
-            width: 2.4rem;
-            height: 2.4rem;
-            color: #7c3aed;
-            animation: bounce 1s infinite;
-            flex-shrink: 0;
-        }
-
-        @keyframes bounce {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-8px); }
-        }
-
         /* Banco de dígitos - optimizado para móviles con distribución simétrica */
         .digit-bank {
             display: flex;
@@ -861,11 +842,6 @@
                 gap: 12px;
             }
             
-            .arrow {
-                width: 2.8rem;
-                height: 2.8rem;
-            }
-            
             .btn {
                 padding: 14px 35px;
                 font-size: 1.2em;
@@ -946,11 +922,6 @@
                 gap: 14px;
             }
             
-            .arrow {
-                width: 3.2rem;
-                height: 3.2rem;
-            }
-            
             .btn {
                 padding: 15px 40px;
                 font-size: 1.2em;
@@ -1027,11 +998,6 @@
                 gap: 8px;
             }
             
-            .arrow {
-                width: 2rem;
-                height: 2rem;
-            }
-            
             .btn {
                 padding: 10px 25px;
                 font-size: 1em;
@@ -1091,11 +1057,6 @@
             .digit-bank {
                 max-width: 800px;
                 gap: 8px;
-            }
-            
-            .arrow {
-                width: 1.8rem;
-                height: 1.8rem;
             }
             
             .btn {
@@ -1210,11 +1171,6 @@
                     <div id="multiplierRow" class="row"></div>
                     <div id="lineRow" class="row"></div>
                     <div id="answerRow" class="row"></div>
-                </div>
-                <div class="arrow-container">
-                    <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
-                        <path d="M12 19V5M5 12l7-7 7 7"/>
-                    </svg>
                 </div>
             </div>
 
